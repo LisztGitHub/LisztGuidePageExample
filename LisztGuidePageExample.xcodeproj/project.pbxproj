@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		813BBDDF1E00F8DD00E668B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 813BBDDE1E00F8DD00E668B0 /* main.m */; };
+		813BBDE21E00F8DD00E668B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 813BBDE11E00F8DD00E668B0 /* AppDelegate.m */; };
+		813BBDE51E00F8DD00E668B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813BBDE41E00F8DD00E668B0 /* ViewController.m */; };
+		813BBDE81E00F8DD00E668B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813BBDE61E00F8DD00E668B0 /* Main.storyboard */; };
+		813BBDEA1E00F8DD00E668B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813BBDE91E00F8DD00E668B0 /* Assets.xcassets */; };
+		813BBDED1E00F8DD00E668B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813BBDEB1E00F8DD00E668B0 /* LaunchScreen.storyboard */; };
+		813BBDF81E00F8DD00E668B0 /* LisztGuidePageExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 813BBDF71E00F8DD00E668B0 /* LisztGuidePageExampleTests.m */; };
+		813BBE031E00F8DD00E668B0 /* LisztGuidePageExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 813BBE021E00F8DD00E668B0 /* LisztGuidePageExampleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		813BBDF41E00F8DD00E668B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 813BBDD21E00F8DD00E668B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 813BBDD91E00F8DD00E668B0;
+			remoteInfo = LisztGuidePageExample;
+		};
+		813BBDFF1E00F8DD00E668B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 813BBDD21E00F8DD00E668B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 813BBDD91E00F8DD00E668B0;
+			remoteInfo = LisztGuidePageExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		813BBDDA1E00F8DD00E668B0 /* LisztGuidePageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LisztGuidePageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		813BBDDE1E00F8DD00E668B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		813BBDE01E00F8DD00E668B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		813BBDE11E00F8DD00E668B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		813BBDE31E00F8DD00E668B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		813BBDE41E00F8DD00E668B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		813BBDE71E00F8DD00E668B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		813BBDE91E00F8DD00E668B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		813BBDEC1E00F8DD00E668B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		813BBDEE1E00F8DD00E668B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813BBDF31E00F8DD00E668B0 /* LisztGuidePageExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LisztGuidePageExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		813BBDF71E00F8DD00E668B0 /* LisztGuidePageExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LisztGuidePageExampleTests.m; sourceTree = "<group>"; };
+		813BBDF91E00F8DD00E668B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813BBDFE1E00F8DD00E668B0 /* LisztGuidePageExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LisztGuidePageExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		813BBE021E00F8DD00E668B0 /* LisztGuidePageExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LisztGuidePageExampleUITests.m; sourceTree = "<group>"; };
+		813BBE041E00F8DD00E668B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		813BBDD71E00F8DD00E668B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813BBDF01E00F8DD00E668B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813BBDFB1E00F8DD00E668B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		813BBDD11E00F8DD00E668B0 = {
+			isa = PBXGroup;
+			children = (
+				813BBDDC1E00F8DD00E668B0 /* LisztGuidePageExample */,
+				813BBDF61E00F8DD00E668B0 /* LisztGuidePageExampleTests */,
+				813BBE011E00F8DD00E668B0 /* LisztGuidePageExampleUITests */,
+				813BBDDB1E00F8DD00E668B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		813BBDDB1E00F8DD00E668B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				813BBDDA1E00F8DD00E668B0 /* LisztGuidePageExample.app */,
+				813BBDF31E00F8DD00E668B0 /* LisztGuidePageExampleTests.xctest */,
+				813BBDFE1E00F8DD00E668B0 /* LisztGuidePageExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		813BBDDC1E00F8DD00E668B0 /* LisztGuidePageExample */ = {
+			isa = PBXGroup;
+			children = (
+				813BBDE01E00F8DD00E668B0 /* AppDelegate.h */,
+				813BBDE11E00F8DD00E668B0 /* AppDelegate.m */,
+				813BBDE31E00F8DD00E668B0 /* ViewController.h */,
+				813BBDE41E00F8DD00E668B0 /* ViewController.m */,
+				813BBDE61E00F8DD00E668B0 /* Main.storyboard */,
+				813BBDE91E00F8DD00E668B0 /* Assets.xcassets */,
+				813BBDEB1E00F8DD00E668B0 /* LaunchScreen.storyboard */,
+				813BBDEE1E00F8DD00E668B0 /* Info.plist */,
+				813BBDDD1E00F8DD00E668B0 /* Supporting Files */,
+			);
+			path = LisztGuidePageExample;
+			sourceTree = "<group>";
+		};
+		813BBDDD1E00F8DD00E668B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				813BBDDE1E00F8DD00E668B0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		813BBDF61E00F8DD00E668B0 /* LisztGuidePageExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				813BBDF71E00F8DD00E668B0 /* LisztGuidePageExampleTests.m */,
+				813BBDF91E00F8DD00E668B0 /* Info.plist */,
+			);
+			path = LisztGuidePageExampleTests;
+			sourceTree = "<group>";
+		};
+		813BBE011E00F8DD00E668B0 /* LisztGuidePageExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				813BBE021E00F8DD00E668B0 /* LisztGuidePageExampleUITests.m */,
+				813BBE041E00F8DD00E668B0 /* Info.plist */,
+			);
+			path = LisztGuidePageExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		813BBDD91E00F8DD00E668B0 /* LisztGuidePageExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 813BBE071E00F8DD00E668B0 /* Build configuration list for PBXNativeTarget "LisztGuidePageExample" */;
+			buildPhases = (
+				813BBDD61E00F8DD00E668B0 /* Sources */,
+				813BBDD71E00F8DD00E668B0 /* Frameworks */,
+				813BBDD81E00F8DD00E668B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LisztGuidePageExample;
+			productName = LisztGuidePageExample;
+			productReference = 813BBDDA1E00F8DD00E668B0 /* LisztGuidePageExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		813BBDF21E00F8DD00E668B0 /* LisztGuidePageExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 813BBE0A1E00F8DD00E668B0 /* Build configuration list for PBXNativeTarget "LisztGuidePageExampleTests" */;
+			buildPhases = (
+				813BBDEF1E00F8DD00E668B0 /* Sources */,
+				813BBDF01E00F8DD00E668B0 /* Frameworks */,
+				813BBDF11E00F8DD00E668B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				813BBDF51E00F8DD00E668B0 /* PBXTargetDependency */,
+			);
+			name = LisztGuidePageExampleTests;
+			productName = LisztGuidePageExampleTests;
+			productReference = 813BBDF31E00F8DD00E668B0 /* LisztGuidePageExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		813BBDFD1E00F8DD00E668B0 /* LisztGuidePageExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 813BBE0D1E00F8DD00E668B0 /* Build configuration list for PBXNativeTarget "LisztGuidePageExampleUITests" */;
+			buildPhases = (
+				813BBDFA1E00F8DD00E668B0 /* Sources */,
+				813BBDFB1E00F8DD00E668B0 /* Frameworks */,
+				813BBDFC1E00F8DD00E668B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				813BBE001E00F8DD00E668B0 /* PBXTargetDependency */,
+			);
+			name = LisztGuidePageExampleUITests;
+			productName = LisztGuidePageExampleUITests;
+			productReference = 813BBDFE1E00F8DD00E668B0 /* LisztGuidePageExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		813BBDD21E00F8DD00E668B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Liszt;
+				TargetAttributes = {
+					813BBDD91E00F8DD00E668B0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WQ25C5R45W;
+						ProvisioningStyle = Automatic;
+					};
+					813BBDF21E00F8DD00E668B0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WQ25C5R45W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 813BBDD91E00F8DD00E668B0;
+					};
+					813BBDFD1E00F8DD00E668B0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WQ25C5R45W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 813BBDD91E00F8DD00E668B0;
+					};
+				};
+			};
+			buildConfigurationList = 813BBDD51E00F8DD00E668B0 /* Build configuration list for PBXProject "LisztGuidePageExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 813BBDD11E00F8DD00E668B0;
+			productRefGroup = 813BBDDB1E00F8DD00E668B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				813BBDD91E00F8DD00E668B0 /* LisztGuidePageExample */,
+				813BBDF21E00F8DD00E668B0 /* LisztGuidePageExampleTests */,
+				813BBDFD1E00F8DD00E668B0 /* LisztGuidePageExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		813BBDD81E00F8DD00E668B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813BBDED1E00F8DD00E668B0 /* LaunchScreen.storyboard in Resources */,
+				813BBDEA1E00F8DD00E668B0 /* Assets.xcassets in Resources */,
+				813BBDE81E00F8DD00E668B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813BBDF11E00F8DD00E668B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813BBDFC1E00F8DD00E668B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		813BBDD61E00F8DD00E668B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813BBDE51E00F8DD00E668B0 /* ViewController.m in Sources */,
+				813BBDE21E00F8DD00E668B0 /* AppDelegate.m in Sources */,
+				813BBDDF1E00F8DD00E668B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813BBDEF1E00F8DD00E668B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813BBDF81E00F8DD00E668B0 /* LisztGuidePageExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813BBDFA1E00F8DD00E668B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813BBE031E00F8DD00E668B0 /* LisztGuidePageExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		813BBDF51E00F8DD00E668B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 813BBDD91E00F8DD00E668B0 /* LisztGuidePageExample */;
+			targetProxy = 813BBDF41E00F8DD00E668B0 /* PBXContainerItemProxy */;
+		};
+		813BBE001E00F8DD00E668B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 813BBDD91E00F8DD00E668B0 /* LisztGuidePageExample */;
+			targetProxy = 813BBDFF1E00F8DD00E668B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		813BBDE61E00F8DD00E668B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				813BBDE71E00F8DD00E668B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		813BBDEB1E00F8DD00E668B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				813BBDEC1E00F8DD00E668B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		813BBE051E00F8DD00E668B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		813BBE061E00F8DD00E668B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		813BBE081E00F8DD00E668B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztGuidePageExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztGuidePageExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		813BBE091E00F8DD00E668B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztGuidePageExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztGuidePageExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		813BBE0B1E00F8DD00E668B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztGuidePageExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztGuidePageExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LisztGuidePageExample.app/LisztGuidePageExample";
+			};
+			name = Debug;
+		};
+		813BBE0C1E00F8DD00E668B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztGuidePageExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztGuidePageExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LisztGuidePageExample.app/LisztGuidePageExample";
+			};
+			name = Release;
+		};
+		813BBE0E1E00F8DD00E668B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztGuidePageExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztGuidePageExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LisztGuidePageExample;
+			};
+			name = Debug;
+		};
+		813BBE0F1E00F8DD00E668B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztGuidePageExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztGuidePageExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LisztGuidePageExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		813BBDD51E00F8DD00E668B0 /* Build configuration list for PBXProject "LisztGuidePageExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813BBE051E00F8DD00E668B0 /* Debug */,
+				813BBE061E00F8DD00E668B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		813BBE071E00F8DD00E668B0 /* Build configuration list for PBXNativeTarget "LisztGuidePageExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813BBE081E00F8DD00E668B0 /* Debug */,
+				813BBE091E00F8DD00E668B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		813BBE0A1E00F8DD00E668B0 /* Build configuration list for PBXNativeTarget "LisztGuidePageExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813BBE0B1E00F8DD00E668B0 /* Debug */,
+				813BBE0C1E00F8DD00E668B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		813BBE0D1E00F8DD00E668B0 /* Build configuration list for PBXNativeTarget "LisztGuidePageExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813BBE0E1E00F8DD00E668B0 /* Debug */,
+				813BBE0F1E00F8DD00E668B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 813BBDD21E00F8DD00E668B0 /* Project object */;
+}
