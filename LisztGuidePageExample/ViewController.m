@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LisztGuidePage.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,9 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)buttonAction:(UIButton *)sender {
+    [LisztGuidePage addPages:@[@"liszt_guidepage_img0.jpg",@"liszt_guidepage_img1.jpg",@"liszt_guidepage_img2.jpg"] isShowButton:sender.tag==9?NO:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
